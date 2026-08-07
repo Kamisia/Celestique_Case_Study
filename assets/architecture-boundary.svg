@@ -1,0 +1,99 @@
+<svg width="1120" height="720" viewBox="0 0 1120 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Celestique architecture boundary</title>
+  <desc id="desc">The Celestique Next.js application connects through request and response API flow to an external generation service owned by the backend developer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1026"/>
+      <stop offset="0.55" stop-color="#15143A"/>
+      <stop offset="1" stop-color="#0D1B34"/>
+    </linearGradient>
+    <linearGradient id="appCard" x1="180" y1="70" x2="940" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="serviceCard" x1="240" y1="510" x2="880" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D8B4FE"/>
+      <stop offset="0.48" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="720" rx="32" fill="url(#bg)"/>
+  <circle cx="130" cy="92" r="2" fill="#D8B4FE" opacity="0.75"/>
+  <circle cx="980" cy="104" r="2" fill="#93C5FD" opacity="0.75"/>
+  <circle cx="1008" cy="584" r="2" fill="#C4B5FD" opacity="0.65"/>
+  <circle cx="174" cy="598" r="1.8" fill="#BAE6FD" opacity="0.65"/>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="62" width="820" height="288" rx="24" fill="url(#appCard)" stroke="#A5B4FC" stroke-opacity="0.42" stroke-width="1.5"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="190" y="118" fill="#F8FAFC" font-size="31" font-weight="800">Celestique Next.js application</text>
+    <text x="190" y="150" fill="#C4B5FD" font-size="18" font-weight="700">My scope</text>
+
+    <g font-size="18" font-weight="600" fill="#E2E8F0">
+      <g transform="translate(198 196)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">UI and App Router</text>
+      </g>
+      <g transform="translate(198 232)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">Firebase Auth and Firestore</text>
+      </g>
+      <g transform="translate(198 268)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">Stripe payments and credit system</text>
+      </g>
+      <g transform="translate(198 304)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">External API integration</text>
+      </g>
+    </g>
+
+    <g font-size="17" font-weight="600" fill="#E2E8F0">
+      <g transform="translate(602 196)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">Multilingual routing and translations</text>
+      </g>
+      <g transform="translate(602 232)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">PDF generation</text>
+      </g>
+      <g transform="translate(602 268)">
+        <circle cx="0" cy="-6" r="5" fill="url(#accent)"/>
+        <text x="24" y="0">Route Handlers and server-side logic</text>
+      </g>
+    </g>
+  </g>
+
+  <path d="M518 350V398" stroke="#A5B4FC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M500 379l18 20 18-20" stroke="#A5B4FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="452" y="388" text-anchor="end" fill="#C4B5FD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Request</text>
+  <rect x="502" y="418" width="116" height="46" rx="23" fill="#111633" stroke="#7DD3FC" stroke-opacity="0.55"/>
+  <text x="560" y="447" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">API</text>
+  <path d="M518 484V510" stroke="#A5B4FC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M500 491l18 20 18-20" stroke="#A5B4FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M602 510V484" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M584 503l18-20 18 20" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M602 398V350" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M584 371l18-20 18 20" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="668" y="388" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Response</text>
+
+  <g filter="url(#shadow)">
+    <rect x="210" y="510" width="700" height="134" rx="22" fill="url(#serviceCard)" stroke="#7DD3FC" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="250" y="564" fill="#F8FAFC" font-size="27" font-weight="800">External generation service</text>
+    <text x="250" y="595" fill="#BAE6FD" font-size="17" font-weight="700">Backend developer scope</text>
+    <text x="250" y="626" fill="#E2E8F0" font-size="18" font-weight="600">Generates structured report content</text>
+  </g>
+</svg>

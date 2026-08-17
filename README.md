@@ -58,7 +58,7 @@ My main responsibilities were:
 - connecting user profiles with Firebase Authentication and Firestore,
 - designing and implementing the credit system inside the web application,
 - integrating one-time payments and subscriptions with Stripe,
-- implementing server-side logic for users, credits, payments and protected operations,
+- implementing server-side logic for users, credits, payments and credit deduction,
 - integrating the application with the external analysis-generation API,
 - implementing multilingual routing and translations,
 - generating PDF reports from dynamic analysis content,
@@ -76,7 +76,7 @@ The most important flow in the application connects product, payment and report 
 3. The user buys credits or subscribes to a package.
 4. After a confirmed payment, the application updates the credit balance or subscription status for that user.
 5. The user fills in a form with data required for the selected report.
-6. The application checks access and sends a generation request.
+6. The application checks the user's credit balance before generation and performs credit deduction server-side.
 7. The user waits while the report is being generated.
 8. The result is displayed in structured sections.
 9. The user can export the report as a PDF.
@@ -163,7 +163,7 @@ Because the application included payments and paid access, I paid particular att
 - clear validation in forms before starting generation,
 - loading and waiting states for longer operations,
 - error states for failed payment, missing credits or failed generation,
-- server-side protection for paid operations,
+- server-side credit balance checks and credit deduction before report generation,
 - consistent credit balance feedback in the UI,
 - manual testing of purchase and generation flows,
 - checking responsive layouts across key screens,
